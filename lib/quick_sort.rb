@@ -16,7 +16,7 @@ class QuickSort
 
     leftlen = pivot_idx - start
     rightlen = length - (leftlen + 1)
-    sort2!(array, starts, leftlen, &prc)
+    sort2!(array, start, leftlen, &prc)
     sort2!(array, pivot_idx + 1, rightlen, &prc)
 
     array
@@ -39,18 +39,3 @@ class QuickSort
   end
 end
 
-
-class QuickSort
-
-  def self.sort1(array)
-  end
-
-  # In-place.
-  def self.sort2!(array, start = 0, length = array.length, &prc)
-    
-  end
-
-  def self.partition(array, start, length, &prc)
-    
-  end
-end
