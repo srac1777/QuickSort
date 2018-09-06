@@ -1,6 +1,6 @@
 class QuickSort
   # Quick sort has average case time complexity O(nlogn), but worst
-  # case O(n**2).
+  # case O(n**2)
 
   # Not in-place. Uses O(n) memory.
   def self.sort1(array)
